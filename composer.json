@@ -1,6 +1,8 @@
 {
   "name": "ntuangiang/php-observer",
   "description": "This is a design pattern for observer",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "type": "library",
   "license": "MIT",
   "authors": [
