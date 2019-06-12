@@ -1,9 +1,11 @@
 {
   "name": "ntuangiang/php-observer",
-  "description": "This is a design pattern for observer",
-  "minimum-stability": "dev",
-  "prefer-stable": true,
   "type": "library",
+  "description": "This is a design pattern for observer",
+  "keywords": [
+    "design-pattern",
+    "observer"
+  ],
   "license": "MIT",
   "authors": [
     {
@@ -11,14 +13,40 @@
       "email": "ntuangiang@outlook.com"
     }
   ],
+  "support": {
+    "issues": "https://github.com/ntuangiang/php-observer/issues"
+  },
+  "require": {
+    "php": "^7.3",
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "extra": {
+    "dev-master": {
+      "dont-discover": []
+    }
+  },
   "autoload": {
     "psr-4": {
       "Observer\\": "src/"
+    },
+    "classmap": [
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
     }
   },
-  "require": {},
-
-  "require-dev": {
-    "phpunit/phpunit": "^8"
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "scripts": {
   }
 }
+
