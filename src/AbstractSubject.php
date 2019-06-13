@@ -1,8 +1,6 @@
 <?php
 
-
-namespace IoC;
-
+namespace Observer;
 
 abstract class AbstractSubject
 {
